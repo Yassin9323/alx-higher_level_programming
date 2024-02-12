@@ -2,5 +2,10 @@
 def islower(c):
     if c.islower():
         return True
+    elif c == "":
+        return True
     else:
         return False
+
+
+print(islower(""))
