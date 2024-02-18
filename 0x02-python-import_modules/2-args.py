@@ -5,6 +5,8 @@ if __name__ == "__main__":
     num_args = len(argv) - 1
     if num_args == 1:
         print(num_args, "argument:")
+    elif num_args == 0:
+        print(num_args, "arguments.")
     else:
         print(num_args, "arguments:")
     for x, arg in enumerate(argv[1:], start=1):
