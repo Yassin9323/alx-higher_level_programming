@@ -1,2 +1,3 @@
--- Listing * Databases of my sql serverr
-SELECT * FROM Alpha
+-- Listing All  Databases in  my sql server
+SHOW DATABASES;
+
