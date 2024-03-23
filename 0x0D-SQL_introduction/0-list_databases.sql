@@ -1,2 +1,2 @@
-# Listing * Databases of my sql serverr
+-- Listing * Databases of my sql serverr
 SELECT * FROM Alpha
