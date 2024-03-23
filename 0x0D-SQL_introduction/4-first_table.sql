@@ -1,5 +1,5 @@
 -- create tables 
-CREATE TABLE first_tabel(
+CREATE TABLE IF NOT EXISTS first_tabel(
 id INT PRIMARY KEY ,
 name VARCHAR(256)
 );
